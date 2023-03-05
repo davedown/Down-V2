@@ -57,10 +57,8 @@ local Tab = Window:MakeTab({
 }
 
 
-
-
 Tab:AddButton({
-	Name = "simple  Aimbot ",
+	Name = "Owl Hub ",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
   	end    
