@@ -37,7 +37,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Silent Aim ",
 	Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/davedown/silent/main/aim'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/davedown/silent/main/aim",true))();
   	end    
 })
 
