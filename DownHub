@@ -50,5 +50,25 @@ Tab:AddButton({
 
 
 
+local Tab = Window:MakeTab({
+	Name = "Kat",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}
+
+
+
+
+Tab:AddButton({
+	Name = "simple  Aimbot ",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+  	end    
+})
+
+
+
+
+
 
 OrionLib:Init()
