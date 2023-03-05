@@ -28,11 +28,25 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Aim",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
+Tab:AddButton({
+	Name = "Silent Aim ",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/davedown/dave/main/downsito",true))();
+  	end    
+})
 
-
-
-
+Tab:AddButton({
+	Name = "simple  Aimbot ",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/diggabrown/main/sidegriddy'))()
+  	end    
+})
 
 
 
