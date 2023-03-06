@@ -210,9 +210,18 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "ToH",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-
-
+Tab:AddButton({
+	Name = "Proxima Hub ",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+  	end    
+})
 
 
 
