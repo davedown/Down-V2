@@ -182,6 +182,20 @@ Tab:AddButton({
 })
 
 
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}
+
+
+Tab:AddButton({
+	Name = "Negro Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://darkhub.xyz/remote-script.lua", true))()
+  	end    
+})
+
 
 
 
