@@ -133,6 +133,14 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "If outdated error",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+  	end    
+})
+
+
 local Tab = Window:MakeTab({
 	Name = "Shindo Life",
 	Icon = "rbxassetid://4483345998",
