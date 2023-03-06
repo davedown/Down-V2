@@ -120,6 +120,29 @@ Tab:AddButton({
 })
 
 
+local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Eclipse",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "If doesnt work",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+  	end    
+})
+
+
+
 
 
 
