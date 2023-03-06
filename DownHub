@@ -127,7 +127,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "test",
+	Name = "EclipseMM2",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
   	end    
