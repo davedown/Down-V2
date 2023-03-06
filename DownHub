@@ -106,5 +106,22 @@ Tab:AddButton({
 })
 
 
+local Tab = Window:MakeTab({
+	Name = "Arcane Odyssey",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "bunny",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/main.lua"))()
+  	end    
+})
+
+
+
+
+
 
 OrionLib:Init()
