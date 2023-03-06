@@ -167,7 +167,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "femWare0 (encerio no queria poner este por una razon xd)",
+	Name = "femWare0 (encerio no queria poner este )",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
   	end    
