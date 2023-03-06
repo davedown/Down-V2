@@ -78,6 +78,20 @@ Tab:AddButton({
 })
 
 
+local Tab = Window:MakeTab({
+	Name = "Michael Zombies",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Dylan Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DylanIsAKingL/Lua-Scripts/main/Michaels-ZombiesV2.lua"))()
+  	end    
+})
+
+
 
 
 OrionLib:Init()
