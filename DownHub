@@ -211,7 +211,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "ToH",
+	Name = "Tower Of Hell",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
