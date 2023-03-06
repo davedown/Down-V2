@@ -126,7 +126,6 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-
 Tab:AddButton({
 	Name = "Eclipse",
 	Callback = function()
@@ -140,11 +139,6 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
   	end    
 })
-
-
-
-
-
 
 
 OrionLib:Init()
