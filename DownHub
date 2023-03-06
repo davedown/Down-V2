@@ -161,13 +161,13 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Build a Boat",
+	Name = "Criminality",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 Tab:AddButton({
-	Name = "Criminality (encerio no queria poner este por una razon xd)",
+	Name = "femWare0 (encerio no queria poner este por una razon xd)",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
   	end    
