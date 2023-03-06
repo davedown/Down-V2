@@ -127,10 +127,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "bunny",
+	Name = "test",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
   	end    
 })
+
+
+
+
 
 OrionLib:Init()
