@@ -7,15 +7,6 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-
-
-Tab:AddButton({
-	Name = "Made By Dave_Down#1571",
-	Callback = function()
-        https://discord.gg/bGmCkphvPq
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "Blox fruits",
 	Icon = "rbxassetid://4483345998",
@@ -100,6 +91,19 @@ Tab:AddButton({
   	end    
 })
 
+
+local Tab = Window:MakeTab({
+	Name = "Bee Swarm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "kocmoc",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+  	end    
+})
 
 
 
