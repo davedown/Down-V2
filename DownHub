@@ -64,5 +64,20 @@ Tab:AddButton({
 
 
 
+local Tab = Window:MakeTab({
+	Name = "Jailbreak",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Vynixius",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+  	end    
+})
+
+
+
 
 OrionLib:Init()
