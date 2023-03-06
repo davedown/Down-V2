@@ -197,4 +197,24 @@ Tab:AddButton({
 
 
 
+local Tab = Window:MakeTab({
+	Name = "Flee The Facility",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Blatant ",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+  	end    
+})
+
+
+
+
+
+
+
+
 OrionLib:Init()
