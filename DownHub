@@ -11,6 +11,13 @@ local Section = Tab:AddSection({
 	Name = "Made By Dave_Down#1571"
 })
 
+Tab:AddButton({
+	Name = "Made By Dave_Down#1571",
+	Callback = function()
+        https://discord.gg/bGmCkphvPq
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Blox fruits",
 	Icon = "rbxassetid://4483345998",
