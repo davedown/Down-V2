@@ -11,6 +11,11 @@ local Section = Tab:AddSection({
 	Name = "Made By Dave_Down#1571"
 })
 
+local Section = Tab:AddSection({
+	Name = "https://discord.gg/bGmCkphvPq"
+})
+
+
 
 
 
