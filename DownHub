@@ -7,6 +7,14 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "Made By Dave_Down#1571"
+})
+
+
+
+
+
 local Tab = Window:MakeTab({
 	Name = "Blox fruits",
 	Icon = "rbxassetid://4483345998",
