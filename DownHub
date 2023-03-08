@@ -176,6 +176,15 @@ Tab:AddButton({
 })
 
 
+Tab:AddButton({
+	Name = "project nexus (key)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
+  	end    
+})
+
+
+
 
 local Tab = Window:MakeTab({
 	Name = "Build a Boat",
