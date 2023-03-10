@@ -108,6 +108,17 @@ Tab:AddButton({
 })
 
 
+Tab:AddButton({
+	Name = "Chaos Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LaeraLuzy/SyctheHubV1/main/script.lua",true))();
+  	end    
+})
+
+
+
+
+
 local Tab = Window:MakeTab({
 	Name = "Michael Zombies",
 	Icon = "rbxassetid://4483345998",
@@ -169,6 +180,23 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Eclipse Hub (updated Version)",
+	Callback = function()
+        local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Drifter Hub (10% risk)",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+  	end    
+})
+
+
 
 
 local Tab = Window:MakeTab({
