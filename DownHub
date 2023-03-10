@@ -115,6 +115,29 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Free Hub",
+	Callback = function()
+        loadstring(game:HttpGet('https://scripts.luawl.com/14245/JailbreakerFree.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "One More Hub",
+	Callback = function()
+        loadstring(game:HttpGet('https://gitlab.com/wspcontr/onemorehub/-/raw/main/scriptloader.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "No Recoil (risk)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/icetray3/main/latest.lua"))()
+  	end    
+})
+
+
+
 
 
 
